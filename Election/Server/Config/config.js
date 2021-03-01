@@ -1,0 +1,12 @@
+const appPort=3030;
+const clientHost='http://localhost:3000';
+const host= "localhost";
+const login= "root";
+const db= "figuresdb";
+const pas="root";
+module.exports.db=db;
+module.exports.login=login;
+module.exports.host=host;
+module.exports.password=pas;
+module.exports.appPort=appPort;
+module.exports.clientHost=clientHost;
