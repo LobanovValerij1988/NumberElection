@@ -3,6 +3,7 @@ import GetLogs from './Elements/Logs';
 import VoteButtons from './Elements/VoteButtons';
 import Diagram from './Elements/diagram';
 import NavMenu from './Elements/NavMenu';
+import Test from './Elements/testPage';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
             <Route exact path="/" component={VoteButtons} />
             <Route exact path="/logs" component={GetLogs} />
             <Route exact path="/diagram" component={Diagram} />
+            <Route exact path="/test" component={Test} />
             <Route  children={() => <h2>Not found</h2>} />
+
           </Switch> 
         </div>
       </Router>
